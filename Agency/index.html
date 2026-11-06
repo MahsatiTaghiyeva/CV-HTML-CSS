@@ -2,102 +2,112 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel ="stylesheet" href="assets/css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/fontawesome/css/all.min.css">.
+    <link rel ="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">    
     <title>Agency</title>
 </head>
 <body>
     <!-- Navigation -->
-    <nav>
-        <a href="#page-top ">   
-            <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg" alt="Agency Logo">
-    
-</a>
-    <img src="assets/img/navbar-logo.svg" alt="Agency Logo">
-        <button type ="button">Menu</button>
-        <ul>
+    <nav class ="navbar">
+        <div class ="container nav-content">
+            <a href="#" class= "logo">Start Bootstrap</a>
+            <ul  class ="nav-links">
             <li><a href="#services">Services</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#team">Team</a></li>
             <li><a href="#contact">Contact</a></li>
-        </ul>
+            </ul>
+        </div>
     </nav>
-    src="assets/img/navbar-logo.svg"
-    <!-- Header -->
-     <header>
-        <div>
+
+    </nav>
+    <!-- Hero Section-->
+    <header class="hero">
+        <div class="hero-content">
             <h1>Welcome To Our Studio!</h1>
-            <h2>It's Nice To Meet You</h2>
-            <a href="#services">Tell Me More</a>
+            <h1>It's Nice To Meet You</h1>
+            <a href="#services" class="btn">Tell Me More</a>
         </div>
     </header>
-    <!-- Services Section -->
-     <section id="services">
-        <div><h1>Services</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+
+    <!-- Services Section -->     
+     <section id="services" class = "section">
+        <div class ="container">
+            <div class="section-title">
+            <h1>Services</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
-        <div> 
-            <article>
+        <div class="services-grid"> 
+            <div class ="service-card">
+                <i class="fa-solid fa-cart-shopping"></i>
+
                 <h2>E-Commerce</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-
-            </article>
-            <article>
+            </div>
+            <div class ="service-card">
+                <i class="fa-solid fa-laptop"></i>
                 <h2>Responsive Design</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-            </article>
-            <article>
+            </div>
+            <div class ="service-card">
+                <i class="fa-solid fa-shield-alt"></i>
                 <h2>Web Security</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-            </article>
+            </div>
         </div>
+    </div>
     </section>
+
     <!-- Portfolio Section -->
-    <section id="portfolio">
-        <div>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-title">
             <h1>Portfolio</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-    </div>
-        <div>
-            <article>
-                <a href=""#portfolioModal1"></a>
+        </div>
+        <div class="portfolio-container">
+            <div class ="portfolio-card">
                 <img src="https://startbootstrap.github.io/startbootstrap-agency/#portfolioModal1" alt="Thread Image">
                 <h2>Threads</h2>
                 <p>Illustration</p>
-            </article>
-            <article>
+            </div>
+            <div class ="portfolio-card">
                 <img src="https://startbootstrap.github.io/startbootstrap-agency/#portfolioModal2" alt="Explore Image">
                 <h2>Explore</h2>
                 <p>Graphic Design</p>
-            </article>
-            <article>
-                <a href="https://startbootstrap.github.io/startbootstrap-agency/#portfolioModal3"></a>
+            </div>
+            <div class ="portfolio-card">
+                <img src="https://startbootstrap.github.io/startbootstrap-agency/#portfolioModal3" alt="Finish Image">
                 <h2>Finish</h2>
                 <p>Identity</p>
-            </article>
-            <article>
-                <a href="https://startbootstrap.github.io/startbootstrap-agency/#portfolioModal4"></a>
+            </div>
+            <div class ="portfolio-card">
+                <img src="https://startbootstrap.github.io/startbootstrap-agency/#portfolioModal4" alt="Lines Image">
                 <h2>Lines</h2>
                 <p>Branding</p>
-            </article>
-            <article>
-                <a href="https://startbootstrap.github.io/startbootstrap-agency/#portfolioModal5"></a>
+            </div>
+            <div class ="portfolio-card">
+                <img src="https://startbootstrap.github.io/startbootstrap-agency/#portfolioModal5"></a>
                 <h2>Southwest</h2>
                 <p>Website Design</p>
-            </article>
-            <article>
-                <a href="https://startbootstrap.github.io/startbootstrap-agency/#portfolioModal6"></a>
+            </div>
+            <div class ="portfolio-card">
+                <img src="https://startbootstrap.github.io/startbootstrap-agency/#portfolioModal6"></a>
                 <h2>Window</h2>
                 <p>Photography</p>
             </article>
         </div>
         <!-- About Section -->
-        <section id="about">
-            <div>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="container-title">
                 <h1>About</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+            <div class ="timeline">
+                <div class="timeline-line"></div>
             </div>
             <ul>
                 <li>
@@ -170,10 +180,43 @@
     <section id = "logos">
         <div>
             <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/logos/microsoft.svg" alt="Microsoft Logo">
-            <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/logos/designmodo.jpg" alt="Designmodo Logo">
-            <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/logos/themeforest.jpg" alt="Themeforest Logo">
+            <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/logos/google.svg" alt="Google Logo">
+            <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/logos/facebook.svg" alt="Facebook Logo">
             <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/logos/creative-market.jpg" alt="Creative Market Logo">
         </div>
+        
     </section>
+        <!-- Contact Section -->
+    <section id="contact" class ="contact-section">
+        <div class ="container">
+            <div class="section-title">
+            <h1>Contact Us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </div>
+        </div>
+        <form class="contact-form">
+            <div class="form-inputs">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <input type="phone" placeholder="Your Phone">
+            </div>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+
+        </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+     <footer class = "footer">
+        <p>Copyright © Your Website 2023</p>
+        <div>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p> Privacy Policy Terms of Use </p>
+     </footer>
+   
 </body>
 </html>
